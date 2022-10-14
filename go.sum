@@ -1,0 +1,4 @@
+github.com/blorticus-go/jtl v0.0.4 h1:wTbM3qv3xpkw4//R2e4t+9py9jaz8ghuFR0VmJGdeDo=
+github.com/blorticus-go/jtl v0.0.4/go.mod h1:xcgsVg+e8gro8cHtgtL0Wf9oZGFYc3XpMYoPIjr6co4=
+github.com/blorticus-go/statistics v0.0.0-20221010083223-a5e0dcd3a702 h1:4EMB1PmQEr3f54PblI/s7lXoVnkj3QYyBcvCzcqsUZk=
+github.com/blorticus-go/statistics v0.0.0-20221010083223-a5e0dcd3a702/go.mod h1:+st7qQU6w1jNWpz0ebvh5ziwZ+1lkNt3sdYEbZgkISs=
