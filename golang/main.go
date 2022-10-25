@@ -63,12 +63,12 @@ func ProcessCommandLineOptions() (*CommandLineArguments, error) {
 
 	flag.Parse()
 
-	// if flag.NArg() == 0 {
-	// 	return nil, fmt.Errorf("the path to the JTL source CSV file is required")
-	// }
-	// if flag.NArg() > 1 {
-	// 	return nil, fmt.Errorf("expected only one non-flag argument, got (%d)", len(flag.Args()))
-	// }
+	if flag.NArg() == 0 {
+		return nil, fmt.Errorf("the path to the JTL source CSV file is required")
+	}
+	if flag.NArg() > 1 {
+		return nil, fmt.Errorf("expected only one non-flag argument, got (%d)", len(flag.Args()))
+	}
 
 	args.PathToJtlSourceCsvFile = flag.Arg(0)
 
