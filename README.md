@@ -15,7 +15,7 @@ jtl-stats-processor /path/to/jtl/file [-o /path/to/summary/output/file] [-t /dir
 ```bash
 git clone https://github.com/blorticus/JtlStatsProcessor.git
 cd JtlStatsProcessor
-go build -o jtl-stats-processor .
+go build -a -o jtl-stats-processor
 ```
 
 ## DESCRIPTION
